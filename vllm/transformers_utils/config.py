@@ -71,6 +71,7 @@ class LazyConfigDict(dict):
 
 _CONFIG_REGISTRY: dict[str, type[PretrainedConfig]] = LazyConfigDict(
     afmoe="AfmoeConfig",
+    apertus1p5="Apertus1p5Config",
     axk1="AXK1Config",
     bagel="BagelConfig",
     chatglm="ChatGLMConfig",
